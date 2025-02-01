@@ -1,0 +1,17 @@
+* {
+    outline: 2px solid red;
+}
+
+#title {
+    background-color: red;
+}
+
+/* rule 1 */
+.subsection {
+    color: blue;
+}
+
+/* rule 2 */
+.main .list {
+    color: red;
+}
