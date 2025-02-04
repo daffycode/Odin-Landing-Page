@@ -2,43 +2,51 @@
 <html>
   <head>
     <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <header>
-      <h2>Header Logo</h2>
-      <div>
+    <header class="section dark-bg primary" style="padding-top: 3vh">
+      <div class="site-logo">Header Logo</div>
+      <div class="header-links secondary">
         <div>header link one</div>
         <div>header link two</div>
         <div>header link three</div>
       </div>
     </header>
-    <div>
+    <div class="section dark-bg hero">
       <div>
-        <h1>This Website is awesome</h1>
-        <p>
+        <div class="main primary">This Website is awesome</div>
+        <div class="secondary">
           Officia do sunt magna velit in aliqua dolore laborum. Eiusmod
           consequat laborum tempor sint quis duis consectetur aliquip
           reprehenderit irure.
-        </p>
-        <button>Sign Up</button>
+        </div>
+        <button class="primary">Sign Up</button>
       </div>
-      <div>
-        <div>Placeholder for image</div>
+      <div class="image">
+        <img src="rough-horn.jpg" alt="Mountain" />
       </div>
     </div>
-    <div>
-      <div>
-        <h2>Some random information</h2>
+    <div class="section information dark">
+      <div class="info-header">
+        <div>Some random information</div>
       </div>
-      <div>
-        <div>
+      <div class="list">
+        <div class="container">
+          <div class="square-border"></div>
           <div>
             <p>Est minim magna cupidatat ad sunt occaecat.</p>
           </div>
         </div>
-        <div>
+        <div class="container">
+          <div class="square-border"></div>
           <div>
             <p>
               Enim consectetur veniam sit est et aliqua dolor non aute nostrud
@@ -46,12 +54,14 @@
             </p>
           </div>
         </div>
-        <div>
+        <div class="container">
+          <div class="square-border"></div>
           <div>
             <p>Amet irure qui sit eiusmod et.</p>
           </div>
         </div>
-        <div>
+        <div class="container">
+          <div class="square-border"></div>
           <div>
             <p>
               Fugiat in labore eu nulla veniam eiusmod culpa deserunt ex culpa
@@ -61,35 +71,35 @@
         </div>
       </div>
     </div>
-    <div>
+    <div class="section quote dark">
       <div>
-        <div>
-          <p>
-            Consequat officia deserunt ad adipisicing ut cupidatat ad duis
-            officia voluptate laborum irure esse. Ea aliqua in dolor non
-            aliquip. Anim cillum incididunt aliquip excepteur ea voluptate enim.
-            Nulla ipsum labore officia officia aliqua aute irure veniam labore
-            mollit et commodo laboris eiusmod. Culpa amet elit id officia amet
-            et enim et qui irure commodo.
-          </p>
+        <div class="quote-text">
+          Consequat officia deserunt ad adipisicing ut cupidatat ad duis officia
+          voluptate laborum irure esse. Ea aliqua in dolor non aliquip. Anim
+          cillum incididunt aliquip excepteur ea voluptate enim. Nulla ipsum
+          labore officia officia aliqua aute irure veniam labore mollit et
+          commodo laboris eiusmod. Culpa amet elit id officia amet et enim et
+          qui irure commodo.
         </div>
-        <div>-Lorem Ipsum, The Guy</div>
+        <div class="quote-author">-Lorem Ipsum, The Guy</div>
       </div>
     </div>
-    <div>
-      <div>
+    <div class="section action primary">
+      <div class="blue-container">
         <div>
-          <h3>Call of action! It's Time!</h3>
-          <p>
+          <div class="header">Call of action! It's Time!</div>
+          <div>
             Ipsum aliqua aliqua deserunt ad Lorem et laboris veniam nostrud
             laborum qui anim nulla in.
-          </p>
+          </div>
         </div>
         <div>
-          <button>Sign Up</button>
+          <button><b>Sign Up</b></button>
         </div>
       </div>
     </div>
-    <footer>Copyright - Daffycode 2025</footer>
+    <footer class="section dark-bg primary">
+      <div>Copyright - Daffycode 2025</div>
+    </footer>
   </body>
 </html>

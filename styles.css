@@ -1,17 +1,165 @@
-* {
-    outline: 2px solid red;
+/* * {
+  outline: 2px solid red;
+} */
+
+body {
+  margin: 0;
+  font-family: "Roboto", serif;
 }
 
-#title {
-    background-color: red;
+.dark-bg {
+  background-color: #1f2937;
 }
 
-/* rule 1 */
-.subsection {
-    color: blue;
+.section {
+  padding: 8vh 13vw;
 }
 
-/* rule 2 */
-.main .list {
-    color: red;
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-logo {
+  width: fit-content;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-links {
+  display: flex;
+  width: fit-content;
+  gap: 2vw;
+}
+
+.primary {
+  color: #f9faf8;
+}
+
+.secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.dark {
+  font-size: 18px;
+  color: #1f2937;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.hero .main {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero button {
+  background-color: #3882f8;
+  border-width: 0;
+  border-radius: 10%;
+  padding: 5px 30px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.image {
+  position: relative;
+}
+
+.image > img {
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+.information {
+  padding: 5vh 20vw;
+}
+
+.information .info-header {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.information .list {
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.information .list .container {
+  flex: 1 1 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information .list .container .square-border {
+  border: 0.2em solid #3882f8;
+  border-radius: 25px;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.information .list .container p {
+  text-align: center;
+}
+
+.quote {
+  padding: 5vh 23vw;
+  background-color: #e5e7eb;
+}
+
+.quote .quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.quote .quote-author {
+  text-align: right;
+  font-size: 24px;
+  font-weight: bolder;
+  margin-right: 15px;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action .blue-container {
+  display: flex;
+  padding: 5vh 7vw;
+  background-color: #3882f8;
+  border-radius: 15px;
+}
+
+.action .blue-container .header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.action .blue-container button {
+  width: fit-content;
+  margin-left: 1em;
+  padding: 5px 2em;
+  background-color: #3882f8;
+  border: 0.2em solid #f9faf8;
+  color: #f9faf8;
+  border-radius: 10px;
+  height: 90%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
